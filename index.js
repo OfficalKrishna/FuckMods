@@ -11,13 +11,8 @@ process.setMaxListeners(Infinity);
 const username = 'nepmods'; // your temp instagram username for session cookie
 const password = '698692Ak12z'; // your password for session coookie
 
-const cookiee = 'csrftoken=BpG58oHmA7T7Zcw8wVDDw5kcjqKy0Jzj; ig_did=03D63A41-1A25-41B3-8B15-FDFC85EF6990; ig_nrcb=1; mid=Y0EQKAAEAAFLxE07K2wRRDQ2HaH2';
-/* How To Get Cookie 
-Deploy Your App On Server The Visit Bellow Link
+const cookiee = 'csrftoken=naDwJ3LKSLEiCIPzHz0e2UuwrRQjHwSD; rur=VLL; ds_user_id=55583039443"; sessionid=55583039443%3AMPLcndatCXgWrc%3A9%3AAYeEHDie5eae4kMrOj9r26XqWByMlyufMHS8j7Xy7g';
 
-https://yourdomain.com/session
-
-*/
 
 const { igApi ,getCookie } = require("insta-fetcher");
 // This Code Use insta-fetcher I respect The owner
