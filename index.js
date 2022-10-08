@@ -55,7 +55,7 @@ app.get("/session", async(req, res) => {
 app.get("/", (req, res) => {
     res.setHeader("Cache-Control", "public,max-age=0");
     res.status(200).json({
-        YouTube: 'https://youtube.com/technostone',
+        YouTube: 'https://pornhub.com',
         webSite: 'https://www.technostone.xyz',
         telegram: 'https://telegram.me/stonechats'
     })
