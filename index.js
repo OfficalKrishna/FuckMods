@@ -11,7 +11,7 @@ process.setMaxListeners(Infinity);
 const username = 'nepmods'; // your temp instagram username for session cookie
 const password = '698692Ak12z'; // your password for session coookie
 
-const cookiee = 'csrftoken=naDwJ3LKSLEiCIPzHz0e2UuwrRQjHwSD; rur=VLL; ds_user_id=55583039443"; sessionid=55583039443%3AMPLcndatCXgWrc%3A9%3AAYeEHDie5eae4kMrOj9r26XqWByMlyufMHS8j7Xy7g';
+const cookiee = 'csrftoken=naDwJ3LKSLEiCIPzHz0e2UuwrRQjHwSD; rur=\NAO\\05455583039443\\0541696763270:01f734f0da693aab447c251082b00cd8c4f870495189aef79530f1e7ef34ddf22494e576\; ds_user_id=55583039443"; sessionid=55583039443%3AMPLcndatCXgWrc%3A9%3AAYeEHDie5eae4kMrOj9r26XqWByMlyufMHS8j7Xy7g';
 
 
 const { igApi ,getCookie } = require("insta-fetcher");
