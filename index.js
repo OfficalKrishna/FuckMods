@@ -60,8 +60,7 @@ app.get("/session", async(req, res) => {
 app.get("/", (req, res) => {
     res.setHeader("Cache-Control", "public,max-age=0");
     res.status(200).json({
-         MADE BY KRISHNACHOUBEY
-         INSTAGRAM: 'https://instagram.com/krishnachoubey_64?igshid=YmMyMTA2M2Y='
+       status : true
     })
 })
 
