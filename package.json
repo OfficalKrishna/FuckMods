@@ -14,7 +14,7 @@
         "rest",
         "api"
     ],
-    "author": "Technostone-dev",
+    "author": "KRISHNA CHOUBEY",
     "license": "ISC",
     "dependencies": {
         "express": "^4.17.3",
