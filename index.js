@@ -11,7 +11,7 @@ process.setMaxListeners(Infinity);
 const username = 'nepmods'; // your temp instagram username for session cookie
 const password = '698692Ak12z'; // your password for session coookie
 
-const cookiee = 'csrftoken=PVl3mN49EWvYwRCDFZIvd15Lmg2UY09A; rur=\"EAG\\05455583039443\\0541696829346:01f751faf32795acbc182eed3f8a7b38d321b887d2ed13bef0b9392c7f207439d43d3530\"; sessionid=55583039443%3AnHiGPSIvWn0ID1%3A11%3AAYcBlftSFQLIfRPJeT_N-abgcZf8e2gUa05sm79zWg; ds_user_id=55583039443';
+const cookiee = 'csrftoken=EuktobwqO8774vVaXbGubMzV1rmhhkLm; rur=\"NAO\\05455583039443\\0541696866753:01f73fcb16e3daa5a3e9745bd15bb1ddfebef34727a2d2a1252d18bafb7451cfe1b6da15\"; sessionid=55583039443%3AODCIMPK5V10ijZ%3A14%3AAYdsRoAzjFKfbAAV8YB2iftvdJvVte3GvqTA8QI7fg; ds_user_id=55583039443';
 /* How To Get Cookie 
 Deploy Your App On Server The Visit Bellow Link
 
