@@ -11,8 +11,13 @@ process.setMaxListeners(Infinity);
 const username = 'nepmods'; // your temp instagram username for session cookie
 const password = '698692Ak12z'; // your password for session coookie
 
-const cookiee = 'csrftoken=naDwJ3LKSLEiCIPzHz0e2UuwrRQjHwSD; rur=\NAO\\05455583039443\\0541696763270:01f734f0da693aab447c251082b00cd8c4f870495189aef79530f1e7ef34ddf22494e576\; ds_user_id=55583039443"; sessionid=55583039443%3AMPLcndatCXgWrc%3A9%3AAYeEHDie5eae4kMrOj9r26XqWByMlyufMHS8j7Xy7g';
+const cookiee = 'csrftoken=PVl3mN49EWvYwRCDFZIvd15Lmg2UY09A; rur=\"EAG\\05455583039443\\0541696829346:01f751faf32795acbc182eed3f8a7b38d321b887d2ed13bef0b9392c7f207439d43d3530\"; sessionid=55583039443%3AnHiGPSIvWn0ID1%3A11%3AAYcBlftSFQLIfRPJeT_N-abgcZf8e2gUa05sm79zWg; ds_user_id=55583039443';
+/* How To Get Cookie 
+Deploy Your App On Server The Visit Bellow Link
 
+https://yourdomain.com/session
+
+*/
 
 const { igApi ,getCookie } = require("insta-fetcher");
 // This Code Use insta-fetcher I respect The owner
@@ -22,17 +27,14 @@ let ig = new igApi(cookiee);
 
 app.get("/api", async(req, res) => {
   const url = req.query.url
-  if(url == '' || url == null){
-    return res.status(400).send({
-      success: false,
-      message: "Query Can't Be Empty!",
-      creator: "technostoneyt"
-    });
-  }
     ig.fetchPost(url).then((data) => {
-  console.log(data);
+      if (!data) {
+        res.status(400).json({status : false})
+      }
   res.status(200).json({data})
-});
+})
+
+
 
 })
 app.get("/session", async(req, res) => {
@@ -50,7 +52,7 @@ app.get("/session", async(req, res) => {
 app.get("/", (req, res) => {
     res.setHeader("Cache-Control", "public,max-age=0");
     res.status(200).json({
-        YouTube: 'https://pornhub.com',
+        YouTube: 'https://youtube.com/technostone',
         webSite: 'https://www.technostone.xyz',
         telegram: 'https://telegram.me/stonechats'
     })
