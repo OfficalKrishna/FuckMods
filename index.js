@@ -27,14 +27,22 @@ let ig = new igApi(cookiee);
 
 app.get("/api", async(req, res) => {
   const url = req.query.url
+  if (!url) {
+    res.status(400).json({status : false})
+  }
+  try {
     ig.fetchPost(url).then((data) => {
       if (!data) {
         res.status(400).json({status : false})
       }
   res.status(200).json({data})
+}).catch((e) => {
+  console.log(e);
 })
-
-
+  } catch (error) {
+    console.log(error);
+  }
+   
 
 })
 app.get("/session", async(req, res) => {
