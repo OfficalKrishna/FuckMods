@@ -60,9 +60,8 @@ app.get("/session", async(req, res) => {
 app.get("/", (req, res) => {
     res.setHeader("Cache-Control", "public,max-age=0");
     res.status(200).json({
-        YouTube: 'https://youtube.com/technostone',
-        webSite: 'https://www.technostone.xyz',
-        telegram: 'https://telegram.me/stonechats'
+         MADE BY KRISHNACHOUBEY
+         INSTAGRAM: 'https://instagram.com/krishnachoubey_64?igshid=YmMyMTA2M2Y='
     })
 })
 
