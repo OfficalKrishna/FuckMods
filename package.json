@@ -1,24 +1,23 @@
 {
-    "name": "insta-downloader",
+    "name": "test-only",
     "version": "1.0.0",
-    "description": "instagram downloader",
+    "description": "",
     "main": "index.js",
-    "engines": {
-    "node": "16.17.1"
-  },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node index.js"
+        "start": "node index.js",
+        "dev": "nodemon test.js"
     },
-    "keywords": [
-        "rest",
-        "api"
-    ],
-    "author": "KRISHNA-CHOUBEY",
+    "keywords": [],
+    "author": "",
     "license": "ISC",
     "dependencies": {
-        "express": "^4.17.3",
-        "insta-fetcher": "^1.3.23",
-        "instatouch": "^2.3.12"
+        "axios": "^0.27.2",
+        "big-integer": "^1.6.51",
+        "cheerio": "^1.0.0-rc.12",
+        "colors": "^1.4.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "image-to-base64": "^2.2.0"
     }
 }
